@@ -26,3 +26,33 @@ body{
   max-width: 960px;
  margin: 0 auto;
 }
+
+.menu-containner::after, .menu-containner::before {
+
+content: '';
+display: table;
+clear: both;
+}
+
+a.menu-logo{
+display: block;
+float: left;
+margin-left: 10px;
+}
+
+.menu-nav{
+float: right;
+
+}
+
+.menu-nav li{
+display: inline-block;
+}
+
+.menu-nav a{
+display: block;
+padding: 10px;
+text-decoration: none;
+color: #fff;
+font-size: 18px;
+}
