@@ -1,13 +1,18 @@
 /* Reset*/
 
 
-body, h1, h2, h3, p, ul{
-padding: 0px;
-margin: 0px;
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  padding: 0px;
+  margin: 0px;
 }
 
 
-body{
+body {
 
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #252525;
@@ -16,116 +21,146 @@ body{
 
 /* Menu*/
 
-.menu{
+.menu {
 
   background: #252525;
   padding: 20px 0;
 }
 
-.menu-containner{
+.menu-containner {
   max-width: 960px;
- margin: 0 auto;
+  margin: 0 auto;
 }
 
-.menu-containner::after, .menu-containner::before {
+.menu-containner::after,
+.menu-containner::before {
 
-content: '';
-display: table;
-clear: both;
+  content: '';
+  display: table;
+  clear: both;
 }
 
-a.menu-logo{
-display: block;
-float: left;
-margin-left: 10px;
+a.menu-logo {
+  display: block;
+  float: left;
+  margin-left: 10px;
 }
 
-.menu-nav{
-float: right;
-margin-right: 10px;
+.menu-nav {
+  float: right;
+  margin-right: 10px;
 
 }
 
-.menu-nav li{
-display: inline-block;
+.menu-nav li {
+  display: inline-block;
 }
 
-.menu-nav a{
-display: block;
-padding: 10px;
-text-decoration: none;
-color: #fff;
-font-size: 18px;
+.menu-nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
 }
 
 
 /*Intro */
 
 
-.intro{
-background: url('../img/bg-intro.jpg') no-repeat center center;
-background-size: cover;
-padding: 150px 0px;
-text-align: center;
-color: #fff;
+.intro {
+  background: url('../img/bg-intro.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 150px 0px;
+  text-align: center;
+  color: #fff;
 }
 
-.intro h1{
+.intro h1 {
   text-transform: uppercase;
   font-size: 3em;
 }
 
-.intro h1::after{
+.intro h1::after {
 
   content: '';
   display: block;
   width: 20px;
   height: 4px;
   background: #fff;
-  
-margin: 10px auto;
+
+  margin: 10px auto;
 }
 
-.intro p{
+.intro p {
 
-font-style: italic;
-font-size: 18px;
+  font-style: italic;
+  font-size: 18px;
 
 }
 
 /*SOBRE*/
 
-.sobre{
-padding: 60px 0;
+.sobre {
+  padding: 60px 0;
 
 }
 
 
 
-.sobre-container{
+.sobre-container {
   max-width: 960px;
- margin: 0 auto;
+  margin: 0 auto;
 }
 
-.sobre-container::after, .sobre-container::before {
+.sobre-container::after,
+.sobre-container::before {
 
-content: '';
-display: table;
-clear: both;
+  content: '';
+  display: table;
+  clear: both;
 }
 
-.sobre h2{
-
-text-align: center;
-font-size: 2.25em;
-margin-bottom: 60px;
+.sobre h2 {
+  text-align: center;
+  font-size: 2.25em;
+  margin-bottom: 60px;
 
 }
 
-.sobre-item{
-
+.sobre-item {
   width: 460px;
   float: left;
   margin: 0 10px;
+}
 
+
+.sobre-item img {
+  display: block;
+  max-width: 100%;
+}
+
+.sobre-item h3 {
+  font-size: 2.25em;
+  line-height: 1em;
+  background: #252525;
+  width: 220px;
+  color: #fff;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 0 10px 0;
+  position: relative;
+  top: -25px;
+
+}
+
+ .sobre > p{
+  text-align: center;
+  line-height: 1.125em;
+  font-style: italic;
+  margin: 20px auto;
+  max-width: 460px;
+  font-size: 1.125em;
+ 
 }
