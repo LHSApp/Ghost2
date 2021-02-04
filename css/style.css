@@ -56,14 +56,103 @@
 
   .produtos-item {
     width: 300px;
-    margin: 0 10px 20px 10px;
+    margin: 0 auto 20px auto;
   }
 }
 
 
 
+@media (min-width: 740px) and (max-width: 980px) {
+ .locais{
+
+  max-width: 300px;
+ }
+ .locais-item > div, .locais-item img{
+  width: 340px;
+
+ }
+}
+
+@media (max-width: 739px) {
+.locais{
+
+  width: 300px;
+}
+
+.locais-item > div, .locais-item img{
+
+  width: 300px;
+  margin: 0;
+}
+}
 
 
+@media (min-width: 740px) and (max-width: 980px) {
+.enviar-container{
+  max-width: 720px;
+}
+
+.enviar-info{
+
+width: 340px;
+}
+
+.enviar form{
+
+  width: 340px;
+}
+
+.enviar input{
+  width: 340px;
+}
+ }
+ 
+ @media (max-width: 739px) {
+  .enviar-container{
+
+    max-width: 300px;
+  }
+
+  .enviar-info, .enviar form, .enviar input{
+    max-width: 300px;
+margin: 0 auto;
+  }
+ }
+ 
+ @media (max-width: 739px) {
+.footer-container{
+  max-width: 300px;
+}
+.footer p{
+
+  float: none;
+  margin: 0;
+}
+.footer img {
+  float: none;
+  margin: 10px 0;
+}
+ }
+
+
+ @media (max-width: 739px) {
+ .menu{
+   text-align: center;
+
+ }
+
+
+ a.menu-logo{
+   float: none;
+   margin: 0 auto;
+ }
+
+ .menu-nav{
+  float: none;
+  clear: both;
+
+}
+  }
 
 /* Reset*/
 body,
@@ -471,6 +560,7 @@ h2.produtos-mineiro:before {
   float: left;
   margin: 0 10px;
   line-height: 1.4em;
+  font-size: 1.125em;
 
 }
 
