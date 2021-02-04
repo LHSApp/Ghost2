@@ -1,35 +1,69 @@
-
 /*Responsivo*/
 
-@media (max-width: 739px){
-.menu-nav{
-float: none;
-clear: both;
+@media (max-width: 739px) {
+  .menu-nav {
+    float: none;
+    clear: both;
 
-}
-}
-
-
-
-@media (max-width: 739px){
-  .intro{
-padding: 90px 0;
-  
   }
-  }
+}
 
-  
-@media (min-width: 740px) and (max-width: 980px){
-  .sobre-container{
+@media (max-width: 739px) {
+  .intro {
+    padding: 90px 0;
+
+  }
+}
+
+@media (min-width: 740px) and (max-width: 980px) {
+  .sobre-container {
 
     max-width: 720px;
   }
-  
-  .sobre-item{
- width: 200px;
-  
+  .sobre-item {
+    width: 340px;
+
   }
+}
+@media (max-width: 739px) {
+  .sobre-container {
+    width: 300px;
   }
+
+  .sobre-item {
+    width: 300px;
+    margin:0 auto;
+  }
+
+  .sobre-item img {
+    max-width: 63%!important;
+}
+}
+
+@media (min-width: 740px) and (max-width: 980px) {
+  .produtos-container {
+    max-width: 720px;
+  }
+  .produtos-item {
+    width: 220px;
+  }
+}
+
+@media (max-width: 739px) {
+  .produtos-container {
+    width: 300px;
+  }
+
+  .produtos-item {
+    width: 300px;
+    margin: 0 10px 20px 10px;
+  }
+}
+
+
+
+
+
 
 /* Reset*/
 body,
@@ -424,14 +458,15 @@ h2.produtos-mineiro:before {
 }
 
 
-.footer-container::after, .footer-container::before{
+.footer-container::after,
+.footer-container::before {
 
   content: '';
   display: table;
   clear: both;
 }
 
-.footer p{
+.footer p {
 
   float: left;
   margin: 0 10px;
@@ -439,7 +474,7 @@ h2.produtos-mineiro:before {
 
 }
 
-.footer img{
+.footer img {
   float: right;
   margin: 0 10px;
   display: block;
