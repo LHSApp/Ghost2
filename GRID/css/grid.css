@@ -3,3 +3,26 @@
   max-width: 960px;
   margin: 0 auto;
 }
+
+
+.container::after, .container::before{
+
+  content:'';
+  display: table;
+  clear: both;
+}
+
+.grid1, .grid2,.grid3,.grid4, .grid5, .grid5,.grid6,.grid7,.grid8,.grid9,.grid10,.grid11,.grid12{
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+  display: block;
+  min-width: 1px;
+}
+
+.grid1{
+  width: 60px;
+}
+.grid2{
+  width: 140px;
+}
