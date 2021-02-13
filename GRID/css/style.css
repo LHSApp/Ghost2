@@ -53,7 +53,7 @@ img{
 	.menu-nav ul li a{
 		margin-left: 0px;
 		padding-left: 0px;
-		padding-right: 0px;
+		padding-right: 8px;
 	}
 }
 
@@ -63,6 +63,8 @@ img{
 	background: url('../img/bg-intro.jpg') no-repeat center center;
 	background-size: cover;
 	color: #fff;
+	padding: 150px 0;
+	text-align: center;
 }
 
 .intro h1 {
@@ -76,11 +78,21 @@ img{
 	width: 20px;
 	height: 4px;
 	background: #fff;
+	margin: 10px auto;
 }
 
 .intro p {
 	font-style: italic;
 	font-size: 1.125em;
+}
+
+
+@media (max-width: 739px){
+
+
+	.intro{
+		padding: 60px 0;
+	}
 }
 
 /* Sobre */
