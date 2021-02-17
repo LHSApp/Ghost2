@@ -16,6 +16,8 @@ body {
 
 .container{
 	display: flex;
+	max-width: 960px;
+	margin: 0 auto;
 
 }
 
@@ -28,6 +30,7 @@ body {
 
 .menu-nav{
 flex: 1;
+align-self: center;
 
 }
 
@@ -51,6 +54,8 @@ flex: 1;
 	background: url('../img/bg-intro.jpg') no-repeat center center;
 	background-size: cover;
 	color: #fff;
+	padding: 150px 0;
+	text-align: center;
 }
 
 .intro h1 {
@@ -64,6 +69,7 @@ flex: 1;
 	width: 20px;
 	height: 4px;
 	background: #fff;
+	margin: 10px auto;
 }
 
 .intro p {
