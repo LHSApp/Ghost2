@@ -21,6 +21,27 @@ body {
 
 }
 
+@media (max-width: 739px){
+
+	.container{
+		flex-direction: column;
+	}
+
+	.footer {
+		margin-bottom: 20px;
+		
+	}
+	.footer-img {
+		margin: 0 auto!important;
+		padding: 10px;
+	}
+
+	.locais-item a {
+		padding: 11px 97px!important;
+	
+	}
+}
+
 /* Menu */
 
 .menu {
