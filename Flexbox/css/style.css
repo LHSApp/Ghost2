@@ -51,6 +51,15 @@ body {
 		padding: 60px 0;
 	}
 
+	.assine input {
+		padding: 5px!important;
+	
+	}
+
+	.assine-info p {
+		margin-bottom: 20px;
+	}
+
 }
 
 /* Menu */
