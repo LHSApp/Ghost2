@@ -22,12 +22,10 @@ body {
 }
 
 @media (max-width: 739px){
-
 	.container{
 		flex-direction: column;
 		max-width: 300px;
 	}
-
 	.footer {
 		margin-bottom: 20px;
 		
@@ -36,26 +34,21 @@ body {
 		margin: 0 auto!important;
 		padding: 10px;
 	}
-
 	.menu-nav{
 		margin: 0px;
 	}
 	.menu-logo{
-		margin: 0px;
+		margin: 0 auto!important;
 	}
 	.menu-nav ul li a{
 		padding-left: 0px;
 	}
-
 	.intro{
 		padding: 60px 0;
 	}
-
 	.assine input {
 		padding: 5px!important;
-	
 	}
-
 	.assine-info p {
 		margin-bottom: 20px;
 	}
