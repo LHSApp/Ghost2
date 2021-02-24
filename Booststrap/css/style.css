@@ -226,11 +226,14 @@ padding-bottom: 60px ;
 .locais-item a {
 	font-size: 1.125em;
 	text-transform: uppercase;
-	text-decoration: none;
+	text-decoration: none!important;
 	border: 3px solid;
 	color: #252525;
 	padding:10px 20px ;
+	
 }
+
+
 
 /* Assine */
 
