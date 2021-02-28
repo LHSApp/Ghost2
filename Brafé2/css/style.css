@@ -64,3 +64,34 @@ color: #252525;
 .header-menu li:first-child a::before{
     content: '';
 }
+
+/*Conteúdo*/
+
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/*Filtro*/
+
+.filtro{
+background: #e7e4d8;
+border: 3px solid #d6d3c8;
+width: 300px;
+margin: 0 10px;
+padding: 20px;
+
+}
+
+.filtro h2{
+    font: 1.25em;
+    padding: 10px 0;
+}
+
+.filtro ul{
+    border-top: 3px solid #252525;
+    border-bottom: 3px solid #252525;
+    padding: 10px 0;
+
+}
