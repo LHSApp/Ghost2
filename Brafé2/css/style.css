@@ -77,6 +77,13 @@ body {
     margin: 0 auto;
 }
 
+.container::after,
+.container::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
 
 /*Filtro*/
 
@@ -140,4 +147,13 @@ body {
 .sabor-3 {
     color: yellowgreen;
     box-shadow: 20px 0 0 0 currentColor, 40px 0 0 0 currentColor, 60px 0 0 0, 80px 0 0 0 currentColor;
+}
+
+
+/* produtos*/
+
+.produtos {
+    width: 620px;
+    margin: 0 10px;
+    float: left;
 }
