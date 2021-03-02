@@ -157,3 +157,13 @@ body {
     margin: 0 10px;
     float: left;
 }
+
+.produtos h1 {
+    font-size: 3em;
+    font-weight: normal;
+}
+
+.produtos li {
+    width: 300px;
+    float: left;
+}
