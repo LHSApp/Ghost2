@@ -84,6 +84,18 @@ body {
     clear: both;
 }
 
+@media (min-width: 740px) and (max-width: 980px) {
+    .comteniner {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 739px) {
+    .container {
+        max-width: 300px;
+    }
+}
+
 
 /*Filtro*/
 
