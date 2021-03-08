@@ -41,13 +41,12 @@
         flex-direction: column;
     }
     .flex-item-4,
-    .flex-item-6,
     .flex-item-8 {
         margin-left: 0px;
         margin-right: 0px;
         max-width: 100%;
     }
-    .filtro .flex-item-4 {
+    .filtro {
         display: none;
     }
 }
